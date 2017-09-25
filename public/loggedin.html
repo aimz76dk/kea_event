@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="css/loggedinPageStyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+        <title>Logged in</title>
+    </head>
+        <body>   
+            <div class="main-container">
+                <header class="pageheader">
+                    <a id="logo" onclick="window.location='/loggedin'">
+                        <img width="100px" src="http://www.connection-management.dk/wp-content/uploads/2014/03/KEA-Logo-1024x462.jpg">
+                        KEA Events
+                    </a>
+                    <nav class="main_nav">
+                        <ul>
+                            <li><a href="javascript:alert('No page here yet!');">Student Initiatives</a></li>
+                            <li><a onclick="window.location='/about'">About</a></li>
+                            <li><a onclick="window.location='/contact'">Contact</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                
+                <section id="top">
+                    <article id="top_top">
+                        <div id="intro">
+                            <h1>Welcome to KEA Events</h1>
+                            <p>Find all events that are happening at KEA</p>
+                        </div>
+                        <div id="subscribe">
+                            <button type="button popup" class="btn btn-default" ><a href="#">Subscribe to the Newsletter</a></button>
+                        </div>
+                    </article>
+            
+                    <article id="top_bottom">
+                        <iframe width="700" height="240" src="https://www.youtube.com/embed/bKdmPZvpVUg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    </article>
+                </section>
+                <section id="bottom">
+                    <hr>
+                    <div id="bottom_headline">
+                        <h2>Trending right now - join the newsletter for more updates!</h2>
+                    </div>
+            
+                    <div id="bottom_trending">
+                        <aside id="bottom_left">
+                            <article class="in-row">
+                                <img class="content-img" src="img/map.jpg">
+                                <p>Event 1</p>
+                            </article>
+            
+                            <article class="in-row">
+                                <img class="content-img" src="img/bridge.jpg">
+                                <p>Event 2</p>
+                            </article>
+            
+                            <article class="in-row">
+                                <img class="content-img" src="img/graph.png">
+                                <p>Event 3</p>
+                            </article>
+                        </aside>
+            
+                        <aside id="bottom_right">
+                            <div>
+                                <img class="content-img" src="img/img_placeholder.jpeg">
+                                <img class="content-img" src="img/img_placeholder.jpeg">
+                                <img class="content-img" src="img/img_placeholder.jpeg">
+                            </div>
+            
+                            <div>
+                                <img class="content-img" src="img/img_placeholder.jpeg">
+                                <img class="content-img" src="img/img_placeholder.jpeg">
+                                <img class="content-img" src="img/img_placeholder.jpeg">
+                            </div>
+            
+                            <div>
+                                <img class="content-img" src="img/img_placeholder.jpeg">
+                                <img class="content-img" src="img/img_placeholder.jpeg">
+                                <img class="content-img" src="img/img_placeholder.jpeg">
+                            </div>
+                        </aside>
+                    </div>
+                    <hr>
+            
+                    <div id="bottom_info">
+                        <nav class="secondary_nav">
+                            <ul>
+                                <li><a href="http://kea.dk">Go to KEA.DK</a></li>
+                                <li><a href="#">Drop us a line!</a></li>
+                                <li><a href="#">Become a member</a></li>
+                            </ul>
+                        </nav>
+            
+                        <button type="button" class="btn btn-default"><a href="#">See more pages</a></button>
+                    </div>
+                </section>
+            </div>
+        <footer>Copyright &copy; KEA 2017</footer>
+    </body>
+</html>
